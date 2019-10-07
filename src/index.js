@@ -1,8 +1,15 @@
+import './index.scss';
+import 'bootstrap/dist/css/bootstrap.css';
+import * as serviceWorker from './serviceWorker';
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+
+const isA11yTestEnabled = false;
+if (isA11yTestEnabled) {
+  const axe = require('react-axe')
+  axe(React, ReactDOM, 1000)
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

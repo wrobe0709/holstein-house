@@ -1,0 +1,47 @@
+.title {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding-top: 75px;
+    margin-bottom: 20px;
+  }
+
+  &__heading {
+    text-align: center;
+    font-size: 4em;
+  }
+
+  &__sub-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+  }
+
+  &__button-container {
+    margin-top: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  &__button {
+    margin: 20px;
+    width: 150px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+  }
+
+  &__button:hover {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
+  }
+
+  &--cursor-pointer {
+    cursor: pointer;
+  }
+}

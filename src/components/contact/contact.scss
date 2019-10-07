@@ -1,0 +1,23 @@
+.contact {
+  &__info-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  &__map-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+  }
+
+  &--flex-1 {
+    flex: 1;
+  }
+
+  &--margin-right-10 {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+.app {
+  background: url('/img/barn.jpg');
+  min-height: 100vh;
+  padding: 0 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .app {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .app {
+    padding: 0 25px;
+  }
+}
