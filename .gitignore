@@ -15,7 +15,16 @@
 .env.development.local
 .env.test.local
 .env.production.local
+todo.txt
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# deploy
+/keys
+/deploy/group_vars
+/deploy/init.sh
+
+# python
+/venv

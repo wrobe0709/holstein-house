@@ -1,0 +1,8 @@
+###
+# Deploys the entire app for The Holstein House
+##
+- name: apply standard configuration to server
+  hosts: common
+  user: deployer
+  roles:
+    - common
