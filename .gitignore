@@ -25,6 +25,7 @@ yarn-error.log*
 /keys
 /deploy/group_vars
 /deploy/init.sh
+/deploy/prod_deploy.sh
 
 # python
 /venv
