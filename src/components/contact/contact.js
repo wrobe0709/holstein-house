@@ -27,7 +27,7 @@ export default class Contact extends React.Component {
             <div className="contact__info-container">
               <div>
                 <span className="contact--margin-right-10"><FontAwesomeIcon icon={faPhone} fixedWidth/></span>
-                <span>715.797.6070</span>
+                <span>920.340.4241</span>
               </div>
               <div>
                 <span className="contact--margin-right-10"><FontAwesomeIcon icon={faEnvelope} fixedWidth/></span>
